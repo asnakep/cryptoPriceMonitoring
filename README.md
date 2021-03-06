@@ -8,6 +8,7 @@
 
 - Path in script to store the prom files is /var/lib/prometheus-node-exporter-text-files.
 - Not all generated metrics are used in this dashboard.
+- Edit dashboard.json to match you prometheus datasource name.
 
 Cheers,
 06/02/2021
