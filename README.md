@@ -1,7 +1,5 @@
 # Grafana Dashboard: ADA and BTC Live Price, Projections, Portfolios, ADA Live Stake
-
-# Requirements: Grafana and Prometheus with textfiles collector enabled
-
+# Requirements: Grafana and Prometheus with textfiles collector enabled.
 # Content: 
 1. prom_textfiles_exporters.sh (script to generate prometheus textfile metrics, it requires curl and jq).
 2. dashboard.json (Dashboard to be imported in Grafana).
