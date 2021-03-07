@@ -2,7 +2,6 @@
 
 PATH=$PATH
 
-
 ### USD/EUR RATES Metric
 curl -s http://www.floatrates.com/daily/usd.json \
 | jq '.eur | del(.code, .alphaCode, .name, .date)' \
