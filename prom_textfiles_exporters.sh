@@ -1,7 +1,5 @@
 #!/bin/bash
 
-### Blockchain Size
-
 PATH=$PATH
 
 
