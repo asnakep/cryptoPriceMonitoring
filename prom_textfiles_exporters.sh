@@ -31,6 +31,8 @@ curl -s -X GET "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_cur
 curl -s -X GET "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=eur" -H "accept: application/json" | sed 's/bitcoin//' | sed 's/eur//' | sed s'/"//g'| sed s'/{//g' | sed s'/}//g' | sed s'/://g' | awk NF | sed -e 's/^[ \t]*/bitcoinprice_eur /' > /var/lib/prometheus-node-exporter-text-files/bitcoinprice_eur.prom
 
 
+### OBSOLETE - to be updated
+
 ### Statistics from Adapools.org
 
 ### GLOBAL CARDANO Stats
